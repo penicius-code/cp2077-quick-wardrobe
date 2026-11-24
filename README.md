@@ -1,7 +1,7 @@
 # Quick Wardrobe
 
 A Cyber Engine Tweaks window that lists every Equipment-EX wardrobe item and puts it on or takes it off with one click, for Cyberpunk 2077. Single-player only.
-Version 1.2.2 | For game version 2.5 | Status: 1.2.2 not run in game yet; earlier versions were tried in game, but no version has a written test result
+Version 1.2.2 | For game version 2.5 | Status: 1.2.2 in use in my game and working; earlier versions were tried in game; no version has a written test record
 
 > This is an unofficial fan work and is not approved/endorsed by CD PROJEKT RED. No game files are included.
 
@@ -92,8 +92,8 @@ Hotkeys in CET's Bindings tab, all unbound by default:
 | 1.0.0 | 2.5 | Compiles (0 errors). Tried in game: version 1.1.0 was built on requests made after a 1.0.0 test. No written test result. |
 | 1.1.0 | 2.5 | Compiles (0 errors). No in-game record. |
 | 1.2.0 | 2.5 | Compiles (0 errors). A first build was tried in game; it was changed after a report that no cursor showed with Pin off. No written test result. |
-| 1.2.1 | 2.5 | Compiles (0 errors). Not run in game. |
-| 1.2.2 | 2.5 | Compiles (0 errors). Not run in game. |
+| 1.2.1 | 2.5 | Compiles (0 errors). No written test record. |
+| 1.2.2 | 2.5 | Compiles (0 errors). In use in the author's game and working (author's statement, 2026-11-24). No written test record. |
 
 "Compiles" means an offline redscript compile against the full installed script set, with no new warnings. The offline mock test used during development is not part of this repository.
 
@@ -112,7 +112,7 @@ Hotkeys in CET's Bindings tab, all unbound by default:
 
 ## Engineering notes
 
-**A save made in mouse mode (1.2.1).** Mouse mode holds the camera with the game's own `NoCameraControl` restriction. A review of 1.2.0 found that this restriction is saved with the game, while the weapon restriction is not. A save made while the window had the mouse could therefore load with the camera still held, if the cleanup on load ran before the saved effect was restored. Fix: one saved flag records that mouse mode was on, and 1.5 seconds after every load a second cleanup removes the restriction again, by this mod's instigator and, when the flag is set, by its record ID. This was found by review, not seen in play, and 1.2.1 has not been run in game.
+**A save made in mouse mode (1.2.1).** Mouse mode holds the camera with the game's own `NoCameraControl` restriction. A review of 1.2.0 found that this restriction is saved with the game, while the weapon restriction is not. A save made while the window had the mouse could therefore load with the camera still held, if the cleanup on load ran before the saved effect was restored. Fix: one saved flag records that mouse mode was on, and 1.5 seconds after every load a second cleanup removes the restriction again, by this mod's instigator and, when the flag is set, by its record ID. This was found by review, not seen in play.
 
 **An empty list kept for good (1.2.2).** When the window asked for the list before Equipment-EX or the player was ready, the bridge returned an empty list, and the window treated it as built. Now the bridge returns -1 in that case and the window asks again by itself.
 
