@@ -3,6 +3,8 @@
 A Cyber Engine Tweaks window that lists every Equipment-EX wardrobe item and puts it on or takes it off with one click, for Cyberpunk 2077. Single-player only.
 Version 1.2.2 | For game version 2.5 | Status: 1.2.2 in use in my game and working; earlier versions were tried in game; no version has a written test record
 
+**Download:** [latest release](https://github.com/penicius-code/cp2077-quick-wardrobe/releases/latest) (zip; install steps below)
+
 > This is an unofficial fan work and is not approved/endorsed by CD PROJEKT RED. No game files are included.
 
 <img src="docs/media/quick-wardrobe.png" width="480" alt="The Quick Wardrobe window with outfit buttons, source and body-area filters, and a list of eight feet items with one pair of shoes selected">
@@ -49,7 +51,7 @@ The redscript file imports Equipment-EX and does not compile without it. Codewar
 ## Install
 
 1. Install the requirements above.
-2. Copy the contents of `package/` into the game folder, so that `bin\x64\plugins\cyber_engine_tweaks\mods\CyberslopQuickWardrobe\init.lua` exists.
+2. Download the zip from the [latest release](https://github.com/penicius-code/cp2077-quick-wardrobe/releases/latest) (the same files as `package/` in this repository) and extract it into the game folder, so that `bin\x64\plugins\cyber_engine_tweaks\mods\CyberslopQuickWardrobe\init.lua` exists.
 3. Start the game, load a save and open the CET overlay. The "Quick Wardrobe" window lists the items of the source Equipment-EX uses.
 
 ## Uninstall / roll back
