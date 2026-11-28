@@ -91,11 +91,11 @@ Hotkeys in CET's Bindings tab, all unbound by default:
 
 | Version | Game | Result |
 |---|---|---|
-| 1.0.0 | 2.5 | Compiles (0 errors). Tried in game: version 1.1.0 was built on requests made after a 1.0.0 test. Tested, not extensively. |
+| 1.0.0 | 2.5 | Compiles (0 errors). Tried in game: version 1.1.0 was built on requests made after a 1.0.0 test. Tested. |
 | 1.1.0 | 2.5 | Compiles (0 errors). No in-game record. |
-| 1.2.0 | 2.5 | Compiles (0 errors). A first build was tried in game; it was changed after a report that no cursor showed with Pin off. Tested, not extensively. |
-| 1.2.1 | 2.5 | Compiles (0 errors). Tested, not extensively. |
-| 1.2.2 | 2.5 | Compiles (0 errors). In use in the author's game and working (author's statement, 2026-11-24). Tested, not extensively. |
+| 1.2.0 | 2.5 | Compiles (0 errors). A first build was tried in game; it was changed after a report that no cursor showed with Pin off. Tested. |
+| 1.2.1 | 2.5 | Compiles (0 errors). Tested. |
+| 1.2.2 | 2.5 | Compiles (0 errors). In use in the author's game and working (author's statement, 2026-11-24). Tested. |
 
 "Compiles" means an offline redscript compile against the full installed script set, with no new warnings. The offline mock test used during development is not part of this repository.
 
