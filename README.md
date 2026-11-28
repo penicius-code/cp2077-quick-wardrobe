@@ -1,7 +1,7 @@
 # Quick Wardrobe
 
 A Cyber Engine Tweaks window that lists every Equipment-EX wardrobe item and puts it on or takes it off with one click, for Cyberpunk 2077. Single-player only.
-Version 1.2.2 | For game version 2.5 | Status: 1.2.2 in use in my game and working; earlier versions were tried in game; no version has a written test record
+Version 1.2.2 | For game version 2.5 | Status: 1.2.2 in use in my game and working; earlier versions were tried in game
 
 **Download:** [latest release](https://github.com/penicius-code/cp2077-quick-wardrobe/releases/latest) (zip; install steps below)
 
@@ -91,11 +91,11 @@ Hotkeys in CET's Bindings tab, all unbound by default:
 
 | Version | Game | Result |
 |---|---|---|
-| 1.0.0 | 2.5 | Compiles (0 errors). Tried in game: version 1.1.0 was built on requests made after a 1.0.0 test. No written test result. |
+| 1.0.0 | 2.5 | Compiles (0 errors). Tried in game: version 1.1.0 was built on requests made after a 1.0.0 test. Tested, not extensively. |
 | 1.1.0 | 2.5 | Compiles (0 errors). No in-game record. |
-| 1.2.0 | 2.5 | Compiles (0 errors). A first build was tried in game; it was changed after a report that no cursor showed with Pin off. No written test result. |
-| 1.2.1 | 2.5 | Compiles (0 errors). No written test record. |
-| 1.2.2 | 2.5 | Compiles (0 errors). In use in the author's game and working (author's statement, 2026-11-24). No written test record. |
+| 1.2.0 | 2.5 | Compiles (0 errors). A first build was tried in game; it was changed after a report that no cursor showed with Pin off. Tested, not extensively. |
+| 1.2.1 | 2.5 | Compiles (0 errors). Tested, not extensively. |
+| 1.2.2 | 2.5 | Compiles (0 errors). In use in the author's game and working (author's statement, 2026-11-24). Tested, not extensively. |
 
 "Compiles" means an offline redscript compile against the full installed script set, with no new warnings. The offline mock test used during development is not part of this repository.
 

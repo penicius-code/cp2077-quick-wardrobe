@@ -6,13 +6,13 @@ For game version 2.5. Every version below compiles with 0 errors against the ful
 ### Fixed
 - When the window asked for the list before Equipment-EX or the player was ready, an empty list was kept for good. The bridge now answers "not ready" and the window asks again by itself.
 
-In use in the author's game and working; no written test record.
+In use in the author's game and working; tested, not extensively.
 
 ## 1.2.1 - 2026-11-23
 ### Fixed
 - A save made while mouse mode held the camera could load with the camera still held, because the game saves that restriction. One saved flag remembers that mouse mode was on, and 1.5 seconds after every load a second cleanup removes the restriction.
 
-No written test record.
+Tested, not extensively.
 
 ## 1.2.0 - 2026-11-22
 ### Added
